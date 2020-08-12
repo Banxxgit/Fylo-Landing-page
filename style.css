@@ -1,6 +1,8 @@
 body {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
+    
 }
 
 .head {
@@ -46,7 +48,7 @@ body {
 
 .welcome-section .sort {
     padding: 80px 40px;
-    order: 2;
+    order: 1;
 }
 .welcome-section .sort h1 {
     font-weight: bold;
@@ -88,7 +90,7 @@ body {
     height: 420px;
     width: 600px;
     padding: 30px 100px 0 40px;
-    order: 1;
+    order: 2;
 }
 @media (max-width: 28.75em) {
     .welcome-section {
@@ -187,12 +189,12 @@ body {
     font-family: "Open Sans";
     margin-top: 0px;
 }
-.card div span {
+.card div section {
     padding: 0;
     margin: 0;
 }
 
-.card div span p {
+.card div section p {
     padding: 0;
     position: relative;
     left: 70px;
@@ -200,7 +202,7 @@ body {
     font-family: "Open Sans";
 }
 
-.card div span img {
+.card div section img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -275,7 +277,7 @@ body {
 .fill {
     padding: 100px 300px 100px 70px;
 }
-#emails {
+.fill #email {
     width: 250px;
     height: 30px;
     border-width: thin;
@@ -283,16 +285,17 @@ body {
     border-radius: 3px;
     text-align: center;
     color: hsl(0, 0%, 75%);
+    position: relative;
+    right: 23px;
 }
-#submits {
+.fill #submit {
     height: 35px;
-    width: 150px;
-    margin-left: 10px;
+    width: 250px;
     border-radius: 3px;
     background-color: hsl(224, 93%, 58%);
     border: none;
     color: #fff;
-    margin: 10px 10px 0px 0px;
+    margin: 0;
 }
 @media (max-width: 28.75em) {
     .access {
@@ -317,7 +320,7 @@ body {
         position: relative;
         bottom: 50px;
     }
-    #submits {
+    #submit {
         width: 250px;
     }
 }
