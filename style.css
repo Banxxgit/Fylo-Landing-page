@@ -285,12 +285,10 @@ body {
     border-radius: 3px;
     text-align: center;
     color: hsl(0, 0%, 75%);
-    position: relative;
-    right: 23px;
 }
 .fill #submit {
     height: 35px;
-    width: 250px;
+    width: 255px;
     border-radius: 3px;
     background-color: hsl(224, 93%, 58%);
     border: none;
@@ -320,8 +318,9 @@ body {
         position: relative;
         bottom: 50px;
     }
-    #submit {
-        width: 250px;
+    .fill #email {
+        position: relative;
+        right: 20px;
     }
 }
 
